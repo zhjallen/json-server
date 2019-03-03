@@ -3,7 +3,39 @@
         {
             "id": 1,
             "userName": "001",
-            "passWord": "001"
+            "passWord": "001",
+            "phone": "123445678",
+            "email": "12@qq.com"
+        },
+        {
+            "id": 2,
+            "userName": "001",
+            "passWord": "001",
+            "phone": "123445678",
+            "email": "12@qq.com"
+        }
+    ],
+    "routers": [
+        {
+            "id": 1,
+            "userId": 1,
+            "menus": [
+                {
+                    "name": "权限管理",
+                    "childrenRouters": [
+                        {
+                            "name": "用户管理",
+                            "component": "userList",
+                            "path": "/userList"
+                        },
+                        {
+                            "name": "平台管理",
+                            "component": "platformManage",
+                            "path": "/platformManage"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
