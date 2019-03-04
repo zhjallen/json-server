@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json:user": "json-server --watch user.json"
+    "json:user": "json-server --watch user.json",
+    "mock": "json-server mock/server.js"
   },
   "keywords": [
     "jsonserver"
