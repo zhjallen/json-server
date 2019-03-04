@@ -26,30 +26,5 @@
             "name": "系统权限",
             "id": 4
         }
-    ],
-    "routers": [
-        {
-            "id": 1,
-            "userId": 1,
-            "menus": [
-                {
-                    "name": "权限管理",
-                    "childrenRouters": [
-                        {
-                            "name": "用户管理",
-                            "component": "userList",
-                            "path": "/userList"
-                        },
-                        {
-                            "name": "平台管理",
-                            "component": "platformManage",
-                            "path": "/platformManage"
-                        }
-                    ]
-                }
-            ]
-        }
     ]
-    
-    
 }
